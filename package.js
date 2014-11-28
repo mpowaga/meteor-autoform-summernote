@@ -1,7 +1,7 @@
 Package.describe({
   name: 'mpowaga:autoform-summernote',
   summary: 'Summernote editor for AutoForm',
-  version: '0.1.0',
+  version: '0.1.1',
   git: 'https://github.com/mpowaga/meteor-autoform-summernote'
 });
 
