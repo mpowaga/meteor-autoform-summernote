@@ -7,7 +7,13 @@ Add WYSIWYG editor to your Meteor app.
 
 1) Install `meteor add mpowaga:autoform-summernote`
 
-2) Create schema
+2) Install bootstrap and fontawesome or skip this if you have them installed
+
+`meteor add twbs:bootstrap`
+
+`meteor add fortawesome:fontawesome`
+
+3) Create schema
 
 ```
 var BookSchema = new SimpleSchema({
@@ -30,15 +36,13 @@ var BookSchema = new SimpleSchema({
 });
 ```
 
-3) Attach schema to your collection `Books.attachSchema(BookSchema)`
+4) Attach schema to your collection `Books.attachSchema(BookSchema)`
 
-4) Generate the form with `{{> quickform}}` or `{{#autoform}}`
+5) Generate the form with `{{> quickform}}` or `{{#autoform}}`
 
 ```
 {{> quickForm collection="Books" type="insert"}}
 ```
-
-**Note:** Summernote may not be working well if you are using other bootstrap dependency than `twbs:bootstrap`. To solve this simply remove your current bootstrap package and install `twbs:bootstrap` (see [this](https://github.com/mpowaga/meteor-autoform-summernote/issues/1) issue).
 
 ###Summernote options###
 

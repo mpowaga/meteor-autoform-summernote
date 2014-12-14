@@ -33,10 +33,6 @@
       "1.0.4"
     ],
     [
-      "fortawesome:fontawesome",
-      "4.2.0"
-    ],
-    [
       "geojson-utils",
       "1.0.1"
     ],
@@ -97,7 +93,7 @@
       "1.0.1"
     ],
     [
-      "summernote:summernote",
+      "summernote:standalone",
       "0.6.0_1"
     ],
     [
@@ -107,10 +103,6 @@
     [
       "tracker",
       "1.0.3"
-    ],
-    [
-      "twbs:bootstrap",
-      "3.3.1"
     ],
     [
       "ui",
