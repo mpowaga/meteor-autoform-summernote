@@ -2,7 +2,7 @@
   "dependencies": [
     [
       "aldeed:autoform",
-      "4.0.7"
+      "4.2.0"
     ],
     [
       "aldeed:simple-schema",
@@ -21,10 +21,6 @@
       "1.0.2"
     ],
     [
-      "chrismbeckett:fontawesome4",
-      "4.2.2"
-    ],
-    [
       "ddp",
       "1.0.11"
     ],
@@ -37,12 +33,12 @@
       "1.0.4"
     ],
     [
-      "geojson-utils",
-      "1.0.1"
+      "fortawesome:fontawesome",
+      "4.2.0"
     ],
     [
-      "hckrs:summernote",
-      "0.1.0"
+      "geojson-utils",
+      "1.0.1"
     ],
     [
       "htmljs",
@@ -77,10 +73,6 @@
       "1.0.5"
     ],
     [
-      "mizzao:bootstrap-3",
-      "3.3.1"
-    ],
-    [
       "mrt:moment",
       "2.6.0"
     ],
@@ -105,12 +97,20 @@
       "1.0.1"
     ],
     [
+      "summernote:summernote",
+      "0.6.0_1"
+    ],
+    [
       "templating",
       "1.0.9"
     ],
     [
       "tracker",
       "1.0.3"
+    ],
+    [
+      "twbs:bootstrap",
+      "3.3.1"
     ],
     [
       "ui",
