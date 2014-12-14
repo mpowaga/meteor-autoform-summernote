@@ -38,6 +38,8 @@ var BookSchema = new SimpleSchema({
 {{> quickForm collection="Books" type="insert"}}
 ```
 
+**Note:** Summernote may not be working well if you are using other bootstrap dependency than `twbs:bootstrap`. To solve this simply remove your current bootstrap package and install `twbs:bootstrap` (see [this](https://github.com/mpowaga/meteor-autoform-summernote/issues/1) issue).
+
 ###Summernote options###
 
 Supported options: `height minHeight maxHeight focus toolbar airPopover`. Read more about them [here](http://hackerwins.github.io/summernote/features.html#api).
