@@ -42,4 +42,8 @@ var BookSchema = new SimpleSchema({
 
 ###Summernote options###
 
-Supported options: `height minHeight maxHeight focus toolbar airPopover`. Read more about them [here](http://hackerwins.github.io/summernote/features.html#api).
+See all available summernote options [here](http://hackerwins.github.io/summernote/features.html#api).
+
+###Summernote callbacks###
+
+See all available summernote calbacks [here](http://hackerwins.github.io/summernote/features.html#callbacks).
