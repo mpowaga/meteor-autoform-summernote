@@ -12,7 +12,7 @@ Package.onUse(function(api) {
 
   api.use([
     'templating',
-    'aldeed:autoform@4.2.2'
+    'aldeed:autoform'
   ], both);
   api.use('summernote:standalone@0.6.0_1', 'client');
 
