@@ -1,7 +1,7 @@
 Package.describe({
   name: 'mpowaga:autoform-summernote',
   summary: 'Summernote editor for aldeed:autoform',
-  version: '0.3.1',
+  version: '0.3.2',
   git: 'https://github.com/mpowaga/meteor-autoform-summernote'
 });
 
@@ -12,7 +12,7 @@ Package.onUse(function(api) {
 
   api.use([
     'templating',
-    'aldeed:autoform@4.2.2'
+    'aldeed:autoform@4.2.2 || 5.1.2'
   ], both);
   api.use('summernote:standalone@0.6.0_1', 'client');
 
