@@ -29,7 +29,7 @@ var BookSchema = new SimpleSchema({
       afFieldInput: {
         type: 'summernote',
         class: 'editor' // optional
-        // summernote options goes here
+        settings: // summernote options goes here
       }
     }
   }
