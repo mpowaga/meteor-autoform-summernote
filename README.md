@@ -46,8 +46,8 @@ var BookSchema = new SimpleSchema({
 
 ###Summernote options###
 
-See all available summernote options [here](http://summernote.org/#/features#api).
+See all available summernote options [here](http://summernote.org/#/deep-dive#api).
 
 ###Summernote callbacks###
 
-See all available summernote calbacks [here](http://summernote.org/#/features#callbacks).
+See all available summernote calbacks [here](http://summernote.org/#/deep-dive#callbacks).
