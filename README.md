@@ -3,7 +3,7 @@ Summernote for AutoForm
 
 Add WYSIWYG editor to your Meteor app.
 
-###Usage###
+## Usage
 
 1) Install `meteor add mpowaga:autoform-summernote`
 
@@ -44,10 +44,12 @@ var BookSchema = new SimpleSchema({
 {{> quickForm collection="Books" type="insert"}}
 ```
 
-###Summernote options###
+6) Remember to [sanitize the HTML on the server](https://atmospherejs.com/?q=sanitize)! Summernote doesn't do that, and even if it did, the client could always send HTML containing `<script>` tags.
+
+## Summernote options
 
 See all available summernote options [here](http://summernote.org/#/deep-dive#api).
 
-###Summernote callbacks###
+## Summernote callbacks
 
 See all available summernote calbacks [here](http://summernote.org/#/deep-dive#callbacks).
