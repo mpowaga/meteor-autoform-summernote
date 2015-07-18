@@ -13,7 +13,7 @@ Package.onUse(function(api) {
     'underscore',
     'reactive-var',
     'aldeed:autoform@5.1.2',
-    'summernote:standalone@0.6.0_1'
+    'summernote:standalone@0.6.10'
   ], 'client');
 
   api.addFiles([
