@@ -12,13 +12,13 @@ Package.onUse(function(api) {
     'templating',
     'underscore',
     'reactive-var',
-    'aldeed:autoform@5.8.1',
+    'aldeed:autoform@6.2.0',
     'summernote:standalone@0.8.1'
   ], 'client');
 
   api.addFiles([
     'lib/client/templates.html',
     'lib/client/templates.js',
-    'lib/client/autoform-summernote.js'  
+    'lib/client/autoform-summernote.js'
   ], 'client');
 });
